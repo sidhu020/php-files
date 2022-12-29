@@ -1,4 +1,4 @@
-<?php
+ <?php
     $name = "siddharth";
     $income = 12000;
 
@@ -58,12 +58,36 @@
    // $null= ;
 
     echo var_dump ($name);
+    echo "<br>";
     echo var_dump($mark);
+    echo "<br>";
     echo var_dump($true);
+    echo "<br>";
     echo var_dump($false);
+    echo "<br>";
     echo var_dump($pr);
+    echo "<br>";
+
+// array
 
     $friends = array("karan","girish","drov");
+    echo var_dump ($friends);
+    echo "<br>";
+    echo $friends[0];
+    echo "<br>";
+    echo $friends[1];
+    echo "<br>";
+    echo $friends[2];
+    echo "<br>";
+
+
+    //null
+
+    $name = NULL;
+    echo var_dump ($name);
+
+
+
 
 
 
