@@ -9,7 +9,7 @@
 <body>
     <?php
 
-    $age = 19;
+    $age = 17;
 
     if($age >18)
     {
@@ -18,6 +18,18 @@
     else
     {
         echo "Your are not Aligible";
+
+        if($age == 17)
+        {
+            echo "<br>";
+            echo "Your age is 17 You Can Wait For 1 year";
+        }
+
+        else
+        {
+            echo "<br>";
+            echo"You Age is".$age;
+        }
     }
 
 
